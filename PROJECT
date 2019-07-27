@@ -1,0 +1,7 @@
+version: "2"
+domain: sealyun.com
+repo: github.com/fanux/sealvm
+resources:
+- group: infra
+  version: v1
+  kind: VirtulMachine

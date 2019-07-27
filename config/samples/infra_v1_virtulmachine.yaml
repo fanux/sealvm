@@ -1,0 +1,7 @@
+apiVersion: infra.sealyun.com/v1
+kind: VirtulMachine
+metadata:
+  name: virtulmachine-sample
+spec:
+  cpu: "1"
+  memory: "2G"
