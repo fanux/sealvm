@@ -35,9 +35,11 @@ type VirtulMachineSpec struct {
 type VirtulMachineStatus struct {
 	// INSERT ADDITIONAL STATUS FIELD - define observed state of cluster
 	// Important: Run "make" to regenerate code after modifying this file
+	Status string `json:"status"`
 }
 
 // +kubebuilder:object:root=true
+// +kubebuilder:subresource:status
 
 // VirtulMachine is the Schema for the virtulmachines API
 type VirtulMachine struct {
